@@ -1,0 +1,14 @@
+.fondo2 {
+    margin-top: 4rem;
+};
+
+.boton-unite {
+    color: #8D5BC1;
+    border-color: #8D5BC1;
+};
+
+.boton-unite:hover {
+    color: white;
+    border-color: #8D5BC1;
+    background-color: #8D5BC1;
+};

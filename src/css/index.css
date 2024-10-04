@@ -1,0 +1,15 @@
+body {
+  font-family: 'heebo', sans-serif, Helvetica, Arial;
+  background-color: black;
+  color: white;
+}
+
+.titulo {
+  font-family: 'Montserrat', sans-serif, Helvetica, Arial;
+}
+
+.iconos {
+  font-size: 20px;
+  color: white;
+  margin: 0 3px; /* Margen para espaciar */
+}
