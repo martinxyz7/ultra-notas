@@ -27,7 +27,7 @@ function Contactanos() {
           <br />
           <br />
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 col-md-12">
           <img
             src="src/assets/Cubos3d.svg"
             alt="Cubos 3D cayendo"
@@ -35,16 +35,15 @@ function Contactanos() {
           />
         </div>
       </section>
-      <div className="f-flex text-center">
-        <br />
-        <span className="d-inline titulo">CONTÁCTANOS </span>
-        <a href="instagram">
+      <div className="d-flex justify-content-center">
+        <span className="titulo ms-2">CONTÁCTANOS </span>
+        <a href="instagram" className="ms-2">
           <FaInstagram className="iconos" />
         </a>
-        <a href="twitter">
+        <a href="twitter" className="ms-2">
           <FaXTwitter className="iconos" />
         </a>
-        <a href="gmail">
+        <a href="gmail" className="ms-2">
           <SiGmail className="iconos" />
         </a>
       </div>

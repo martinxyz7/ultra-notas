@@ -11,8 +11,7 @@ function Navbar() {
             src="src/assets/Logo.svg"
             alt="Logo"
             width="30px"
-            // height="24"
-            // className="d-inline-block align-text-top"
+            className="logo"
           />
         </a>
         <FaBars

@@ -4,7 +4,7 @@ function QueEs() {
   return (
     <main className="container" id="que-es">
       <article className="row d-flex align-items-center">
-        <section className="col-lg-6 col-md-12">
+        <section className="col-lg-6 col-md-12 text-center">
           <img
             className="fondo2 img-fluid"
             src="src/assets/Fondo2.svg"
@@ -26,7 +26,7 @@ function QueEs() {
             para tareas simples o para desarrollar proyectos de software sin
             complicaciones.
           </p>
-          <button type="button" className="btn btn-outline-danger">
+          <button type="button" className="btn btn-outline-primary">
             Unite a Ultra Notas
           </button>
         </section>

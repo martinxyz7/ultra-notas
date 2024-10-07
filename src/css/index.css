@@ -11,5 +11,5 @@ body {
 .iconos {
   font-size: 20px;
   color: white;
-  margin: 0 3px; /* Margen para espaciar */
+  margin-top: -3px;
 }
