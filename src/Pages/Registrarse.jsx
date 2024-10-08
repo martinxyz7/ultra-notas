@@ -74,7 +74,7 @@ function Registrarse() {
           </button>
         </section>
         <div className="text-center">
-          <Link className="botones titulo" to="/Registrarse">
+          <Link className="boton-tengocuenta titulo" to="/iniciar-sesion">
             Ya tengo cuenta, <strong>INICIAR SESIÓN</strong>
           </Link>
         </div>

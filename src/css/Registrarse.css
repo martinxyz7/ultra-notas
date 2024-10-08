@@ -8,3 +8,11 @@
     /* Redondear esquinas */
     border-radius: 15px;
 }
+
+.boton-tengocuenta, .boton-tengocuenta.boton-tengocuenta.active, .boton-tengocuenta:focus {
+    color: white;
+}
+
+.boton-tengocuenta.boton-tengocuenta.show, .boton-tengocuenta:hover {
+    color: #8D5BC1;
+}

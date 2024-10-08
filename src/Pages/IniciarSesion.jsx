@@ -81,7 +81,7 @@ function IniciarSesion() {
           </button>
         </section>
         <div className="text-center">
-          <Link className="botones titulo" to="/Registrarse">
+          <Link className="botones titulo" to="/registrarse">
             No tengo cuenta, <strong>REGISTRARME</strong>
           </Link>
         </div>
