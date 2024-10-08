@@ -1,6 +1,7 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 function Contactanos() {
   return (
@@ -16,13 +17,14 @@ function Contactanos() {
             </strong>
           </h2>
           <br />
-          <button
+          <Link
             type="button"
-            className="btn btn-outline-danger d-inline-block"
-            style={{ width: "200px", height: "50px" }}
+            className="btn btn-outline-danger"
+            to="/registrarse"
+            style={{ width: "200px" }}
           >
             Unite a Ultra Notas
-          </button>
+          </Link>
           <br />
           <br />
           <br />

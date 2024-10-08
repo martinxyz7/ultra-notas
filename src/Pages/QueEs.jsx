@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function QueEs() {
   return (
     <main className="container" id="que-es">
@@ -25,9 +27,13 @@ function QueEs() {
             para tareas simples o para desarrollar proyectos de software sin
             complicaciones.
           </p>
-          <button type="button" className="btn btn-outline-primary">
+          <Link
+            type="button"
+            className="btn btn-outline-primary"
+            to="/registrarse"
+          >
             Unite a Ultra Notas
-          </button>
+          </Link>
         </section>
       </article>
     </main>
