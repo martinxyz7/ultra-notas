@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 function IniciarSesion() {
   return (
-    <main className="fondo3">
+    <main className="fondo2">
       <a href="/">
         <img
           src="src/assets/Logo.svg"
@@ -19,14 +19,14 @@ function IniciarSesion() {
       </a>
 
       <article className="container col-12 col-sm-10 col-md-8 col-lg-4 IniciarSesion">
-        <h2 className="titulo text-center IniciarSesion-texto neon">
+        <h2 className="Montserrat text-center IniciarSesion-texto neon">
           <strong>INICIAR SESIÓN</strong>
         </h2>
 
         <section className="mb-3 d-flex flex-column align-items-start">
           <label
             htmlFor="exampleFormControlInput1"
-            className="form-label titulo"
+            className="form-label Montserrat"
           >
             <strong>Correo</strong>
           </label>
@@ -39,7 +39,7 @@ function IniciarSesion() {
         </section>
 
         <section className="mb-3 d-flex flex-column">
-          <label htmlFor="inputPassword5" className="form-label titulo">
+          <label htmlFor="inputPassword5" className="form-label Montserrat">
             <strong>Contraseña</strong>
           </label>
           <div className="d-flex">
@@ -76,12 +76,12 @@ function IniciarSesion() {
         </section>
 
         <section className="d-flex justify-content-center">
-          <button className="btn btn-light mb-4 titulo">
+          <button className="btn btn-light mb-4 Montserrat">
             <strong>Acceder</strong>
           </button>
         </section>
         <div className="text-center">
-          <Link className="botones titulo" to="/registrarse">
+          <Link className="botones Montserrat" to="/registrarse">
             No tengo cuenta, <strong>REGISTRARME</strong>
           </Link>
         </div>

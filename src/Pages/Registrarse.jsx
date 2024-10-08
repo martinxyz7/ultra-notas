@@ -17,14 +17,14 @@ function Registrarse() {
       </a>
 
       <article className="container col-12 col-sm-10 col-md-8 col-lg-4 Registrarse">
-        <h2 className="titulo text-center IniciarSesion-texto neon">
+        <h2 className="Montserrat text-center IniciarSesion-texto neon">
           <strong>REGISTRARSE</strong>
         </h2>
 
         <section className="mb-3 d-flex flex-column align-items-start">
           <label
             htmlFor="exampleFormControlInput1"
-            className="form-label titulo"
+            className="form-label Montserrat"
           >
             <strong>Correo</strong>
           </label>
@@ -37,7 +37,7 @@ function Registrarse() {
         </section>
 
         <section className="mb-3 d-flex flex-column">
-          <label htmlFor="inputPassword5" className="form-label titulo">
+          <label htmlFor="inputPassword5" className="form-label Montserrat">
             <strong>Contraseña</strong>
           </label>
           <div className="d-flex">
@@ -69,12 +69,12 @@ function Registrarse() {
         </section>
 
         <section className="d-flex justify-content-center">
-          <button className="btn btn-light mb-4 titulo">
+          <button className="btn btn-light mb-4 Montserrat">
             <strong>Registrarme</strong>
           </button>
         </section>
         <div className="text-center">
-          <Link className="boton-tengocuenta titulo" to="/iniciar-sesion">
+          <Link className="boton-tengocuenta Montserrat" to="/iniciar-sesion">
             Ya tengo cuenta, <strong>INICIAR SESIÓN</strong>
           </Link>
         </div>

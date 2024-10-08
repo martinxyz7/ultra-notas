@@ -7,13 +7,15 @@ function QueEs() {
         <section className="col-lg-6 col-md-12 text-center">
           <img
             className="Flores img-fluid"
-            src="src/assets/Flores.svg"
+            src="src/assets/Flores.webp"
             alt="Fondo de Flores"
             style={{ marginTop: "4rem" }}
+            loading="lazy"
+            width="90%"
           />
         </section>
         <section className="col-lg-6 col-md-12">
-          <h2 className="titulo">
+          <h2 className="Montserrat">
             <br />
             <strong>¿Que es Ultra Notas?</strong>
           </h2>

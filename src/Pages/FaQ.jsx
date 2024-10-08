@@ -4,7 +4,7 @@ function FaQ() {
     <article className="container" id="faq">
       <br /> <br /> <br />
       <section className="row text-center">
-        <h2 className="titulo">
+        <h2 className="Montserrat">
           <strong>Preguntas Frecuentes</strong>
         </h2>
 

@@ -4,13 +4,15 @@ function PorQueUsar() {
       <br /> <br /> <br />
       <article className="row d-flex align-items-center">
         <section className="col-lg-6 col-md-12 text-center">
-          <h2 className="titulo">
+          <h2 className="Montserrat">
             <strong>¿Por qué usar Ultra Notas?</strong>
           </h2>
           <img
             className="img-fluid"
-            src="src/assets/Foto5.svg"
+            src="src/assets/fotopublicidad.webp"
             alt="Foto Neon"
+            loading="lazy"
+            width="90%"
           />
         </section>
         <section className="col-lg-6 col-md-12">

@@ -3,7 +3,7 @@ function NuestraComunidad() {
     <main className="container" id="nuestra-comunidad">
       <article className="row d-flex align-items-center">
         <section className="col-lg-6 col-md-12">
-          <h2 className="titulo">
+          <h2 className="Montserrat">
             <strong>Nuestra Comunidad</strong>
           </h2>
           <span>

@@ -1,5 +1,5 @@
-.fondo3 {
-    background-image: url('/src/assets/Fondo3.svg');
+.fondo2 {
+    background-image: url('/src/assets/Fondo2.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 }
 
 .IniciarSesion {
-    background-image: url('/src/assets/Fondo3Desenfocado.png');
+    background-image: url('/src/assets/Fondo2-Desenfocado.webp');
     background-position: center;
     
     /* Añadir bordes blancos */
