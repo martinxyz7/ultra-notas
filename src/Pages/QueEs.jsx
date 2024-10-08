@@ -1,14 +1,13 @@
-import "../css/QueEs.css";
-
 function QueEs() {
   return (
     <main className="container" id="que-es">
       <article className="row d-flex align-items-center">
         <section className="col-lg-6 col-md-12 text-center">
           <img
-            className="fondo2 img-fluid"
-            src="src/assets/Fondo2.svg"
+            className="Flores img-fluid"
+            src="src/assets/Flores.svg"
             alt="Fondo de Flores"
+            style={{ marginTop: "4rem" }}
           />
         </section>
         <section className="col-lg-6 col-md-12">

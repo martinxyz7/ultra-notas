@@ -1,0 +1,10 @@
+.Registrarse {
+    background-image: url('/src/assets/FondoDesenfocado.png');
+    background-position: center;
+    
+    /* Añadir bordes blancos */
+    border: 5px solid white;
+    
+    /* Redondear esquinas */
+    border-radius: 15px;
+}

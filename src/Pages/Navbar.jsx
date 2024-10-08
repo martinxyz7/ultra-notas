@@ -1,8 +1,31 @@
 import "../css/Navbar.css";
 import { FaBars } from "react-icons/fa";
-// import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+// import { useEffect } from "react";
 
 function Navbar() {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  // Función para hacer scroll cuando estás en la ruta principal
+  const scrollToSection = (id) => {
+    if (location.pathname === "/") {
+      const section = document.querySelector(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      // Si no estás en la página principal, navega a la principal y luego hace scroll
+      navigate("/");
+      setTimeout(() => {
+        const section = document.querySelector(id);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100); // Dale un pequeño tiempo para asegurarse que la página principal cargue
+    }
+  };
+
   return (
     <nav className="navbar navbar-expand-md">
       <article className="container-fluid">
@@ -12,6 +35,7 @@ function Navbar() {
             alt="Logo"
             width="30px"
             className="logo"
+            style={{ marginTop: "-5px" }}
           />
         </a>
         <FaBars
@@ -26,33 +50,52 @@ function Navbar() {
         <section className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="#inicio">
+              <a
+                type="button"
+                className="nav-link active"
+                onClick={() => scrollToSection("#inicio")}
+              >
                 INICIO
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#que-es">
+              <a
+                type="button"
+                className="nav-link"
+                onClick={() => scrollToSection("#que-es")}
+              >
                 ¿QUÉ ES ULTRA NOTAS?
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#por-que-usarlo">
+              <a
+                type="button"
+                className="nav-link"
+                onClick={() => scrollToSection("#por-que-usarlo")}
+              >
                 POR QUÉ USARLO
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#faq">
+              <a
+                type="button"
+                className="nav-link"
+                onClick={() => scrollToSection("#faq")}
+              >
                 FAQ
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contactanos">
+              <a
+                type="button"
+                className="nav-link"
+                onClick={() => scrollToSection("#contactanos")}
+              >
                 CONTÁCTANOS
               </a>
             </li>
-
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
                 href="#"
                 role="button"
@@ -60,17 +103,17 @@ function Navbar() {
                 aria-expanded="false"
               >
                 UNIRSE
-              </a>
+              </Link>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="/iniciar-sesion">
+                  <Link className="dropdown-item" to="/iniciar-sesion">
                     INICIAR SESION
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/registrarse">
+                  <Link className="dropdown-item" to="/registrarse">
                     REGISTRARSE
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>

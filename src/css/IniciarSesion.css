@@ -1,0 +1,45 @@
+.fondo3 {
+    background-image: url('/src/assets/Fondo3.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.Accesos {
+    width: 30%;
+}
+
+.IniciarSesion-texto {
+    margin-top: 2rem;
+}
+
+.IniciarSesion {
+    background-image: url('/src/assets/Fondo3Desenfocado.png');
+    background-position: center;
+    
+    /* Añadir bordes blancos */
+    border: 5px solid white;
+    
+    /* Redondear esquinas */
+    border-radius: 15px;
+}
+
+.form-control, .form-control:focus {
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.ojo-cerrado {
+    font-size: 30px;
+    margin: 5px;
+}
+
+.botones, .botones.botones.active, .botones:focus {
+    color: white;
+}
+
+.botones.botones.show, .botones:hover {
+    color: black;
+}

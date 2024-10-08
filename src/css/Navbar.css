@@ -7,10 +7,6 @@
     z-index: 1000; /* Para que esté por encima de otros elementos */
 }
 
-.logo {
-    margin-top: -5px;
-}
-
 .nav-link, .nav-link.nav-link.active, .nav-link:focus {
     color: white;
 }
@@ -25,4 +21,8 @@
 
 .dropdown-item {
     color: white;
+}
+
+a {
+    font-weight: bold;
 }
