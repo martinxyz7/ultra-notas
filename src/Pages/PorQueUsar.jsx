@@ -1,6 +1,6 @@
 function PorQueUsar() {
   return (
-    <main className="container" id="por-que-usarlo">
+    <main className="container px-5" id="por-que-usarlo">
       <br /> <br /> <br />
       <article className="row d-flex align-items-center">
         <section className="col-lg-6 col-md-12 text-center">
@@ -15,23 +15,34 @@ function PorQueUsar() {
             width="90%"
           />
         </section>
-        <section className="col-lg-6 col-md-12">
+        <section
+          className="col-lg-6 col-md-12"
+          style={{ paddingRight: "30px" }}
+        >
           <br />
-          <h3>GRATUITA Y FÁCIL DE USAR</h3>
-          <p>
+          <h3 className="Montserrat" style={{ color: "#2176FF" }}>
+            GRATUITA Y FÁCIL DE USAR
+          </h3>
+          <p style={{ paddingRight: "80px" }}>
             Disfruta de todas las funcionalidades sin costo. Con una interfaz
             intuitiva y sin complicaciones, empezar a organizar tus ideas y
             proyectos será tan simple como abrir una nueva nota. ¡Sin curva de
             aprendizaje!
           </p>
-          <h3>OPTIMIZADO PARA PROGRAMADORES</h3>
-          <p>
+          <h3 className="Montserrat" style={{ color: "#2176FF" }}>
+            OPTIMIZADO PARA PROGRAMADORES
+          </h3>
+          <p style={{ paddingRight: "80px" }}>
             Un entorno diseñado con herramientas y atajos pensados para que el
             código y las ideas fluyan mejor, facilitando la organización de
             proyectos complejos.
           </p>
-          <h3>ULTRA PERSONALIZACIÓN</h3>
-          <p>Personaliza completamente a tu gusto y comodidad.</p>
+          <h3 className="Montserrat" style={{ color: "#2176FF" }}>
+            ULTRA PERSONALIZACIÓN
+          </h3>
+          <p style={{ paddingRight: "80px" }}>
+            Personaliza completamente a tu gusto y comodidad.
+          </p>
         </section>
       </article>
     </main>

@@ -2,19 +2,9 @@ import { Link } from "react-router-dom";
 
 function QueEs() {
   return (
-    <main className="container" id="que-es">
+    <main className="container px-5" id="que-es">
       <article className="row d-flex align-items-center">
-        <section className="col-lg-6 col-md-12 text-center">
-          <img
-            className="Flores img-fluid"
-            src="src/assets/Flores.webp"
-            alt="Fondo de Flores"
-            style={{ marginTop: "4rem" }}
-            loading="lazy"
-            width="90%"
-          />
-        </section>
-        <section className="col-lg-6 col-md-12">
+        <section className="col-lg-6 col-md-12" style={{ paddingLeft: "40px" }}>
           <h2 className="Montserrat">
             <br />
             <strong>¿Que es Ultra Notas?</strong>
@@ -29,6 +19,7 @@ function QueEs() {
             para tareas simples o para desarrollar proyectos de software sin
             complicaciones.
           </p>
+
           <Link
             type="button"
             className="btn btn-outline-primary"
@@ -36,6 +27,16 @@ function QueEs() {
           >
             Unite a Ultra Notas
           </Link>
+        </section>
+        <section className="col-lg-6 col-md-12 text-center">
+          <img
+            className="Flores img-fluid"
+            src="src/assets/Flores.webp"
+            alt="Fondo de Flores"
+            style={{ marginTop: "4rem" }}
+            loading="lazy"
+            width="90%"
+          />
         </section>
       </article>
     </main>
