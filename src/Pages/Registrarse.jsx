@@ -1,4 +1,5 @@
 import "../css/Registrarse.css";
+import "../css/index.css";
 import { Link } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -69,9 +70,9 @@ function Registrarse() {
         </section>
 
         <section className="d-flex justify-content-center">
-          <button className="btn btn-light mb-4 Montserrat">
+          <Link to="/home" className="btn btn-light mb-4 Montserrat">
             <strong>Registrarme</strong>
-          </button>
+          </Link>
         </section>
         <div className="text-center">
           <Link className="boton-tengocuenta Montserrat" to="/iniciar-sesion">

@@ -1,4 +1,6 @@
 import "../css/FaQ.css";
+import "../css/index.css";
+
 function FaQ() {
   return (
     <article className="container" id="faq">

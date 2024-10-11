@@ -1,5 +1,7 @@
-import "../css/Home.css";
-function Home() {
+import "../css/Inicio.css";
+import "../css/index.css";
+
+function Inicio() {
   return (
     <main className="fondo" id="inicio">
       <article className="container text-center">
@@ -17,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Inicio;

@@ -1,3 +1,5 @@
+import "../css/index.css";
+
 function PorQueUsar() {
   return (
     <main className="container px-5" id="por-que-usarlo">

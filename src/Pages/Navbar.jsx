@@ -1,4 +1,5 @@
 import "../css/Navbar.css";
+import "../css/index.css";
 import { FaBars } from "react-icons/fa";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 // import { useEffect } from "react";

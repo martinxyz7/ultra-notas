@@ -3,16 +3,20 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import "./css/index.css";
+
+// Inicio
 import Navbar from "./Pages/Navbar.jsx";
-import Home from "./Pages/Home.jsx";
+import Inicio from "./Pages/Inicio.jsx";
 import QueEs from "./Pages/QueEs.jsx";
 import PorQueUsar from "./Pages/PorQueUsar.jsx";
 import FaQ from "./Pages/FaQ.jsx";
 import Contactanos from "./Pages/Contactanos.jsx";
-// import NuestraComunidad from "./Pages/NuestraComunidad.jsx";
 import IniciarSesion from "./Pages/IniciarSesion.jsx";
 import Registrarse from "./Pages/Registrarse.jsx";
+
+// Home
+import Sidebar from "./App/Sidebar.jsx";
+// import Home from "./App/Home.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -23,7 +27,7 @@ createRoot(document.getElementById("root")).render(
           element={
             <>
               <Navbar />
-              <Home />
+              <Inicio />
               <QueEs />
               <PorQueUsar />
               <FaQ />
@@ -33,6 +37,15 @@ createRoot(document.getElementById("root")).render(
         />
         <Route path="/iniciar-sesion" element={<IniciarSesion />} />
         <Route path="/registrarse" element={<Registrarse />} />
+        <Route
+          path="/home"
+          element={
+            <>
+              <Sidebar />
+              {/* <Home /> */}
+            </>
+          }
+        />
       </Routes>
     </Router>
   </StrictMode>

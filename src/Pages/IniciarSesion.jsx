@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaEyeSlash } from "react-icons/fa"; //ojo cerrado
 import { FaGoogle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import "../css/index.css";
 
 function IniciarSesion() {
   return (
@@ -76,9 +77,9 @@ function IniciarSesion() {
         </section>
 
         <section className="d-flex justify-content-center">
-          <button className="btn btn-light mb-4 Montserrat">
+          <Link className="btn btn-light mb-4 Montserrat" to="/home">
             <strong>Acceder</strong>
-          </button>
+          </Link>
         </section>
         <div className="text-center">
           <Link className="botones Montserrat" to="/registrarse">
