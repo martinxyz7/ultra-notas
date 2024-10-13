@@ -35,7 +35,6 @@ function Navbar() {
             src="src/assets/Logo.svg"
             alt="Logo"
             width="30px"
-            className="logo"
             style={{ marginTop: "-5px" }}
           />
         </a>

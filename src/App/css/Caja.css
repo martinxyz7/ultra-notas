@@ -1,0 +1,38 @@
+body {
+  background-color: #191919;
+}
+
+.Caja {
+  background-color: #191919;
+}
+
+.card {
+  width: 12.5rem;
+  height: 16.6rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-crear {
+  background-color: black;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #505050;
+  transition: transform 0.3s ease;
+}
+
+.card-crear:hover {
+  transform: scale(1.06);
+}
+
+.icono-crear {
+  color: #505050;
+  font-size: 8.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.Caja-img {
+  max-width: 12.4rem;
+  max-height: 6.5rem;
+  object-fit: cover; /* Hace zoom para llenar el contenedor sin distorsión */
+}

@@ -12,7 +12,6 @@ function Registrarse() {
           src="src/assets/Logo.svg"
           alt="Logo"
           width="30px"
-          className="logo"
           style={{ marginTop: "10px", marginLeft: "13px" }}
         />
       </a>

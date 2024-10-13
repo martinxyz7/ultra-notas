@@ -1,0 +1,54 @@
+.Sidebar {
+  position: fixed; /* Se queda fijo */
+  z-index: 1000; /* Para que esté por encima de otros elementos */
+}
+
+.offcanvas.show {
+  transition-duration: 0.25s;
+}
+
+/* @media (min-width: 768px) {
+  .offcanvas.show,
+  .offcanvas.toggle {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .offcanvas.show,
+  .offcanvas.toggle {
+    width: 15rem;
+  }
+} */
+
+.Sidebar-texto {
+  color: white;
+  font-size: 2rem;
+  transition: color 0.3s ease, transform 0.3s ease; /* Transición para el color y el tamaño */
+}
+
+.Sidebar-texto:hover {
+  color: #b14aed;
+  transform: scale(1.2);
+}
+
+.Sidebar-iconos {
+  font-size: 2.5rem;
+  margin-right: 1rem; /* Espacio entre el ícono y el texto */
+  margin-bottom: 2rem;
+  color: #b14aed;
+  transition: transform 0.3s ease; /* Transición suave para el tamaño */
+}
+
+.Sidebar-iconos:hover {
+  transform: scale(1.2); /* Aumenta el tamaño del icono al pasar el mouse */
+}
+
+.papelera {
+  position: absolute;
+  bottom: 0;
+}
+
+.offcanvas {
+  background-color: black;
+}

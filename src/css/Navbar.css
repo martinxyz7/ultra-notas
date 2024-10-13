@@ -1,28 +1,31 @@
 .navbar {
-    background-color: transparent;/* Fondo transparente */
-    position: fixed; /* Se queda fijo en la parte superior */
-    top: 0; /* Asegura que está pegado al borde superior */
-    left: 0; /* Se alinea al borde izquierdo */
-    width: 100%; /* Ocupar todo el ancho de la pantalla */
-    z-index: 1000; /* Para que esté por encima de otros elementos */
+  background-color: transparent; /* Fondo transparente */
+  position: fixed; /* Se queda fijo en la parte superior */
+  top: 0; /* Asegura que está pegado al borde superior */
+  left: 0; /* Se alinea al borde izquierdo */
+  width: 100%; /* Ocupar todo el ancho de la pantalla */
+  z-index: 1000; /* Para que esté por encima de otros elementos */
 }
 
-.nav-link, .nav-link.nav-link.active, .nav-link:focus {
-    color: white;
+.nav-link,
+.nav-link.nav-link.active,
+.nav-link:focus {
+  color: white;
 }
 
-.nav-link.nav-link.show, .nav-link:hover {
-    color: #8D5BC1;
+.nav-link.nav-link.show,
+.nav-link:hover {
+  color: #8d5bc1;
 }
 
 .dropdown-menu {
-    background-color: black;
+  background-color: black;
 }
 
 .dropdown-item {
-    color: white;
+  color: white;
 }
 
 a {
-    font-weight: bold;
+  font-weight: bold;
 }

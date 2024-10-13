@@ -1,5 +1,5 @@
 .fondo {
-  background-image: url('/src/assets/Fondo.webp');
+  background-image: url("/src/assets/Fondo.webp");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -32,10 +32,8 @@
 
 .neon {
   color: white; /* Asegúrate de que las letras sean claras */
-  text-shadow:
-    0 0 100px #fff,       /* Sombra cercana para un brillo suave */
-    0 0 20px #fff,      /* Brillo medio */
-    0 0 10px #fff,      /* Brillo más intenso */
-    0 0 0px #ffffff,   /* Halo de neón más grande */
-    0 0 0px #ffffff;   /* Expande aún más el efecto */
+  text-shadow: 0 0 100px #fff,
+    /* Sombra cercana para un brillo suave */ 0 0 20px #fff,
+    /* Brillo medio */ 0 0 10px #fff, /* Brillo más intenso */ 0 0 0px #ffffff,
+    /* Halo de neón más grande */ 0 0 0px #ffffff; /* Expande aún más el efecto */
 }

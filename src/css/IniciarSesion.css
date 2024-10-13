@@ -1,45 +1,49 @@
 .fondo2 {
-    background-image: url('/src/assets/Fondo2.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-image: url("/src/assets/Fondo2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .Accesos {
-    width: 30%;
+  width: 30%;
 }
 
 .IniciarSesion-texto {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .IniciarSesion {
-    background-image: url('/src/assets/Fondo2-Desenfocado.webp');
-    background-position: center;
-    
-    /* Añadir bordes blancos */
-    border: 5px solid white;
-    
-    /* Redondear esquinas */
-    border-radius: 15px;
+  background-image: url("/src/assets/Fondo2-Desenfocado.webp");
+  background-position: center;
+
+  /* Añadir bordes blancos */
+  border: 5px solid white;
+
+  /* Redondear esquinas */
+  border-radius: 15px;
 }
 
-.form-control, .form-control:focus {
-    background-color: black;
-    border-color: black;
-    color: white;
+.form-control,
+.form-control:focus {
+  background-color: black;
+  border-color: black;
+  color: white;
 }
 
 .ojo-cerrado {
-    font-size: 30px;
-    margin: 5px;
+  font-size: 30px;
+  margin: 5px;
 }
 
-.botones, .botones.botones.active, .botones:focus {
-    color: white;
+.botones,
+.botones.botones.active,
+.botones:focus {
+  color: white;
 }
 
-.botones.botones.show, .botones:hover {
-    color: black;
+.botones.botones.show,
+.botones:hover {
+  color: black;
 }

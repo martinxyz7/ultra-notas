@@ -1,0 +1,15 @@
+.MiniNavbar {
+  background-color: transparent;
+  position: fixed; /* Se queda fijo en la parte superior */
+  width: 100%; /* Ocupar todo el ancho de la pantalla */
+  z-index: 999; /* Para que esté por encima de otros elementos */
+}
+
+.MiniNavbar-iconos {
+  font-size: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.cajas {
+  margin-top: 3rem;
+} /* Para que mis notas quede por encima de la cards */
