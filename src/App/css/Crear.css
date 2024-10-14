@@ -1,0 +1,42 @@
+.crear {
+  padding-top: 5rem;
+} /* Para que las cards queden por debajo del MiniNavbar */
+
+.nombre-crear {
+  font-size: 4rem;
+  opacity: 0.37; /* 63% opaco, 37% transparente */
+}
+
+.descripcion-crear {
+  border: 2px solid #b14aed;
+  border-radius: 5px;
+  opacity: 0.37;
+}
+
+.crear-img {
+  width: 100%; /* Permite que la imagen se ajuste al tamaño del contenedor */
+  height: auto; /* Ajusta la altura automáticamente */
+  max-width: 24.8rem;
+  max-height: 13rem;
+  min-width: 12.4rem;
+  min-height: 6.5rem;
+  background-color: black;
+  object-fit: cover; /* Mantiene la proporción y rellena el contenedor */
+  border-radius: 5px;
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 768px) {
+  .crear article {
+    flex-direction: column; /* Cambia la dirección a columna */
+  }
+}
+
+.texto-crear {
+  opacity: 0.37;
+}
+
+.input-crear {
+  background: none;
+  border-style: none;
+}

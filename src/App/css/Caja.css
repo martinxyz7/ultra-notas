@@ -31,7 +31,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.Caja-img {
+.caja-img {
   max-width: 12.4rem;
   max-height: 6.5rem;
   object-fit: cover; /* Hace zoom para llenar el contenedor sin distorsión */

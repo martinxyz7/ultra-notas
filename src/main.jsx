@@ -18,6 +18,7 @@ import Registrarse from "./Pages/Registrarse.jsx";
 import Sidebar from "./App/Sidebar.jsx";
 import MiniNavbar from "./App/MiniNavbar.jsx";
 import Caja from "./App/Caja.jsx";
+import Crear from "./App/Crear.jsx";
 // import Home from "./App/Home.jsx";
 
 createRoot(document.getElementById("root")).render(
@@ -42,11 +43,21 @@ createRoot(document.getElementById("root")).render(
         <Route
           path="/home"
           element={
-            <div style={{ backgroundColor: "#191919" }}>
+            <>
               <Sidebar />
               <MiniNavbar />
               <Caja />
-            </div>
+            </>
+          }
+        />
+        <Route
+          path="/crear"
+          element={
+            <>
+              <Sidebar />
+              <MiniNavbar />
+              <Crear />
+            </>
           }
         />
       </Routes>

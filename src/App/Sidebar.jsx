@@ -54,7 +54,6 @@ function Sidebar2() {
               className="d-flex justify-content-center"
               to="/home"
               style={{ textDecoration: "none" }}
-              data-bs-dismiss="offcanvas" // Cierra el offcanvas al hacer clic
             >
               <GoHomeFill className="Sidebar-iconos" />
               <span className="Sidebar-texto texto-link">Home</span>
