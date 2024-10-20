@@ -2,15 +2,19 @@
   padding-top: 5rem;
 } /* Para que las cards queden por debajo del MiniNavbar */
 
-.nombre-crear {
+.titulo-crear,
+.titulo-crear:focus {
   font-size: 4rem;
-  opacity: 0.37; /* 63% opaco, 37% transparente */
+  background: transparent;
+  border: transparent;
 }
 
-.descripcion-crear {
+.descripcion-crear,
+.descripcion-crear:focus {
   border: 2px solid #b14aed;
   border-radius: 5px;
-  opacity: 0.37;
+  background: transparent;
+  resize: none;
 }
 
 .crear-img {
@@ -32,11 +36,34 @@
   }
 }
 
-.texto-crear {
-  opacity: 0.37;
-}
-
-.input-crear {
+.contenido-crear,
+.contenido-crear:focus {
   background: none;
   border-style: none;
+  resize: none;
+}
+
+input,
+textarea {
+  caret-color: #b14aed; /* Cambia el color del cursor */
+  outline: none !important; /* Forzamos que no tenga outline */
+  border: 2px solid transparent !important; /* Borde transparente al inicio */
+  transition: border-color 0.3s ease-in-out !important; /* Transición suave */
+  overflow: hidden; /* Oculta la barra de desplazamiento */
+}
+
+input:focus,
+textarea:focus {
+  border-color: #b14aed !important; /* Borde violeta al hacer focus */
+  border-radius: 5px !important; /* Bordes redondeados */
+  box-shadow: 0 0 5px rgba(128, 0, 255, 0.5) !important; /* Resplandor */
+}
+
+/* Para cambiar el color del placeholder */
+input::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important; /* Cambia a tu color preferido */
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important; /* Cambia a tu color preferido */
 }
