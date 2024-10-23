@@ -13,3 +13,32 @@
 .cajas {
   margin-top: 3rem;
 } /* Para que las cards queden por debajo del MiniNavbar */
+
+.icono-notificacion {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icono-notificacion:hover {
+  color: #b14aed;
+  transform: scale(1.2);
+}
+
+.icono-configuracion {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icono-configuracion:hover {
+  color: #b14aed;
+  transform: scale(1.2);
+}
+
+/* Estilos para alinear los íconos y el texto dentro de los dropdown-items */
+.dropdown-item {
+  display: flex;
+  align-items: center; /* Centra verticalmente íconos y texto */
+}
+
+.dropdown-item svg {
+  margin-right: 0.5rem; /* Espacio entre el ícono y el texto */
+  font-size: 1.5rem; /* Tamaño del ícono (ajusta según prefieras) */
+}

@@ -17,10 +17,7 @@ function Sidebar2() {
         role="button"
         aria-controls="offcanvasExample"
       >
-        <img
-          src="src/assets/Logo.svg"
-          style={{ width: "3rem", marginTop: "-12px" }}
-        />
+        <img src="src/assets/Logo.svg" className="img-logo" />
       </a>
 
       {/* Dentro del OFFCANVAS */}

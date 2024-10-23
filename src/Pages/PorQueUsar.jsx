@@ -1,10 +1,10 @@
-import "../css/index.css";
+import "./css/index.css";
 
 function PorQueUsar() {
   return (
     <main style={{ backgroundColor: "black" }}>
-      <br /> <br /> <br />
       <article className="container px-5" id="por-que-usarlo">
+        <br /> <br /> <br />
         <section className="row d-flex align-items-center">
           <section className="col-lg-6 col-md-12 text-center">
             <h2 className="Montserrat">

@@ -14,12 +14,11 @@ import Contactanos from "./Pages/Contactanos.jsx";
 import IniciarSesion from "./Pages/IniciarSesion.jsx";
 import Registrarse from "./Pages/Registrarse.jsx";
 
-// Home
+// App
 import Sidebar from "./App/Sidebar.jsx";
 import MiniNavbar from "./App/MiniNavbar.jsx";
 import Caja from "./App/Caja.jsx";
 import Crear from "./App/Crear.jsx";
-// import Home from "./App/Home.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

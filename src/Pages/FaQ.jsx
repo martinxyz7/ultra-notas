@@ -1,5 +1,5 @@
-import "../css/FaQ.css";
-import "../css/index.css";
+import "./css/FaQ.css";
+import "./css/index.css";
 
 function FaQ() {
   return (

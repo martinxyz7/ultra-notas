@@ -1,5 +1,5 @@
-import "../css/Registrarse.css";
-import "../css/index.css";
+import "./css/Registrarse.css";
+import "./css/index.css";
 import { Link } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

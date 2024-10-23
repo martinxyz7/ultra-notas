@@ -1,10 +1,10 @@
-import "../css/IniciarSesion.css";
+import "./css/IniciarSesion.css";
 import { Link } from "react-router-dom";
 // import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa"; //ojo cerrado
 import { FaGoogle } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import "../css/index.css";
+import "./css/index.css";
 
 function IniciarSesion() {
   return (

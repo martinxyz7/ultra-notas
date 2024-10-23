@@ -1,5 +1,5 @@
-import "../css/Inicio.css";
-import "../css/index.css";
+import "./css/Inicio.css";
+import "./css/index.css";
 
 function Inicio() {
   return (

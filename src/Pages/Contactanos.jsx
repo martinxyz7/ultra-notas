@@ -2,7 +2,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
-import "../css/index.css";
+import "./css/index.css";
 
 function Contactanos() {
   return (

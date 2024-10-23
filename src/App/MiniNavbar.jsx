@@ -11,10 +11,13 @@ function MiniNavbar() {
   return (
     <nav className="d-flex justify-content-end align-items-center p-3 MiniNavbar">
       <FaCircleUser className="MiniNavbar-iconos" />
-      <IoNotifications className="MiniNavbar-iconos" />
+      <IoNotifications
+        className="MiniNavbar-iconos icono-notificacion"
+        role="button"
+      />
       <div className="dropdown">
         <FaBars
-          className="dropdown-toggle MiniNavbar-iconos"
+          className="dropdown-toggle MiniNavbar-iconos icono-configuracion"
           href="#"
           role="button"
           data-bs-toggle="dropdown"
